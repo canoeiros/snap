@@ -1,0 +1,13 @@
+Grafo carregado: 77350 nós e 516575 arestas.
+
+Plotando a Distribuição de Graus (Lei de Potência)...
+
+Iniciando Testes de Robustez...
+Tamanho da Maior Componente Original (LCC): 77350 nós
+LCC após remover 5% dos vértices aleatoriamente: 71810 nós (92.84%)
+LCC após remover os 5% maiores Hubs: 48835 nós (63.14%)
+
+Cálculo Teórico de Small-World (Para comparar com seu C++)...
+Grau Médio <k>: 13.36
+Clusterização Aleatória Esperada (C_rand): 0.000173
+Comprimento Médio Aleatório Esperado (L_rand): 4.34

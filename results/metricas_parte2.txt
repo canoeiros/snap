@@ -1,0 +1,39 @@
+Grafo carregado. Vértices: 77350 | Arestas: 516575
+Tempo de carregamento (ms): 204.641
+
+=== Resultados: Dijkstra ===
+Iterações: 30
+Média de Tempo: 29.4771 ms
+Desvio Padrão: 25.0852 ms
+Intervalo de Confiança: [20.5005 ms, 38.4537 ms]
+
+=== Resultados: Algoritmo de Tarjan (Global) ===
+Iterações: 30
+Média de Tempo: 121.761 ms
+Desvio Padrão: 7.12245 ms
+Intervalo de Confiança: [119.212 ms, 124.309 ms]
+Total de Componentes Fortemente Conexas (SCC): 49209
+Tamanho da Maior SCC: 26996 nós.
+
+=== Resultados: Busca em Largura (BFS) ===
+Iterações: 30
+Média de Tempo: 12.4315 ms
+Desvio Padrão: 17.7061 ms
+Intervalo de Confiança: [6.09546 ms, 18.7675 ms]
+
+=== Resultados: Busca em Profundidade (DFS) ===
+Iterações: 30
+Média de Tempo: 17.7162 ms
+Desvio Padrão: 21.7272 ms
+Intervalo de Confiança: [9.94118 ms, 25.4911 ms]
+
+Calculando Diâmetro, Raio e Caminho Médio por amostragem (300 nós)...
+--- Resultados da Amostragem ---
+Diâmetro Estimado: 13
+Raio Estimado: 1
+Comprimento Médio dos Caminhos: 4.73745
+
+Calculando Triângulos e Clusterização...
+--- Resultados da Clusterização ---
+Número Total de Triângulos: 548054
+Coeficiente de Clusterização Médio: 0.0863907

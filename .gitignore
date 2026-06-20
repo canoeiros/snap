@@ -1,0 +1,20 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# C++ compiled
+src/cpp/*.o
+src/cpp/*.out
+*.exe
+
+# Results (keep tracked files, ignore auto-generated)
+results/grafos_plotados/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

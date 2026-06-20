@@ -1,0 +1,18 @@
+Grafo carregado em 1.36 segundos.
+
+--- Métricas Básicas ---
+Vértices: 77350
+Arestas: 516575
+Densidade: 0.00008634
+
+--- Graus (Total) ---
+Grau Mínimo: 1
+Grau Máximo: 2546
+Grau Médio: 13.36
+
+Calculando Componentes Conexas
+
+--- Componentes Conexas ---
+Número de Componentes: 1
+Tamanho da Maior Componente: 77350
+Tamanho da Menor Componente: 77350

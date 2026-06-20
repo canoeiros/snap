@@ -3,7 +3,7 @@ import numpy as np
 import time
 
 start_time = time.time()
-G = nx.read_edgelist("data/soc-sign-Slashdot081106.txt", comments='#', create_using=nx.DiGraph(), nodetype=int, data=(('sign', int),))
+G = nx.read_edgelist("../../data/soc-sign-Slashdot081106.txt", comments='#', create_using=nx.DiGraph(), nodetype=int, data=(('sign', int),))
 print(f"Grafo carregado em {time.time() - start_time:.2f} segundos.")
 
 # 2. Métricas Básicas

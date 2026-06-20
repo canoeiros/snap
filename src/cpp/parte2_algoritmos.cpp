@@ -44,7 +44,7 @@ void testBattery(const Graph &G, int runs, vector<double> &data, const std::func
 
 int main() {
     auto start_load = chrono::high_resolution_clock::now();
-    Graph G = loadGraph("/home/caio/Documents/!ufba/2026.1/teo_grafos/trabalho/snap/data/soc-sign-Slashdot081106.txt");
+    Graph G = loadGraph("../../data/soc-sign-Slashdot081106.txt");
     auto end_load = chrono::high_resolution_clock::now();
     
     cout << "Grafo carregado. Vértices: " << G.numNodes() << " | Arestas: " << G.num_edges << endl;
